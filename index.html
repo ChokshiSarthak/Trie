@@ -1,65 +1,71 @@
-<!doctype html>
-<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
-<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on https://github.com/jonrohan -->
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
 
-  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
-  <link rel="stylesheet" href="stylesheets/github-dark.css">
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="javascripts/script.js"></script>
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
 
-  <title>Autocomplete using Tries</title>
-  <meta name="description" content="C++ Implementation of Trie data structure">
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Autocomplete using Trie  by ChokshiSarthak</title>
+  </head>
 
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <body>
+    <a id="forkme_banner" href="https://github.com/ChokshiSarthak/Trie">View on GitHub</a>
+    <div class="shell">
 
-</head>
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Autocomplete using Trie </h1>
+            <h2>C++ Implementation of Trie data structure</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
 
-<body>
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/ChokshiSarthak/Trie/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/ChokshiSarthak/Trie/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
 
-  <div class="wrapper">
-    <header>
-      <h1 class="title">Autocomplete using Tries</h1>
-    </header>
-    <div id="container">
-      <p class="tagline">C++ Implementation of Trie data structure</p>
-      <div id="main" role="main">
-        <div class="download-bar">
-        <div class="inner">
-          <a href="https://github.com/ChokshiSarthak/Trie/tarball/master" class="download-button tar"><span>Download</span></a>
-          <a href="https://github.com/ChokshiSarthak/Trie/zipball/master" class="download-button zip"><span>Download</span></a>
-          <a href="https://github.com/ChokshiSarthak/Trie" class="code">View Autocomplete using Tries on GitHub</a>
-        </div>
-        <span class="blc"></span><span class="trc"></span>
-        </div>
-        <article class="markdown-body">
-          <p>You might have come across with many websites/Apps with Auto complete suggestion. Most obvious example would be Google!
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <p>You might have come across with many websites/Apps with Auto complete suggestion. Most obvious example would be Google!
 Adding such an option to your site or application might seem daunting but there is a very simple recursive data structure that solves the problem. There is a ton of literature on the net on how to do this using black box approaches like Lucene, Solr, Sphinx, Redis etc. But all these packages require a lot of configuration and you also lose flexibility. Tries can be implemented in a few lines of code in any language of your choice. If you are not familiar with Trie. Here is a link to wiki - <a href="https://en.wikipedia.org/wiki/Trie">https://en.wikipedia.org/wiki/Trie</a></p>
 
 <p>This is my attempt to implement Auto-Completion/Suggestion using Trie. Program reads words from the provided text for simplicity. This implementation can be used as a base to implement more sophisticated features.</p>
-        </article>
-      </div>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/ChokshiSarthak">ChokshiSarthak</a> can be found on <a href="https://github.com/ChokshiSarthak/Trie">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
     </div>
-    <footer>
-      <div class="owner">
-      <p><a href="https://github.com/ChokshiSarthak" class="avatar"><img src="https://avatars3.githubusercontent.com/u/10256680?v=3&amp;s=60" width="48" height="48"></a> <a href="https://github.com/ChokshiSarthak">ChokshiSarthak</a> maintains <a href="https://github.com/ChokshiSarthak/Trie">Autocomplete using Tries</a></p>
 
-
-      </div>
-      <div class="creds">
-        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
-      </div>
-    </footer>
-  </div>
-  <div class="current-section">
-    <a href="#top">Scroll to top</a>
-    <a href="https://github.com/ChokshiSarthak/Trie/tarball/master" class="tar">tar</a><a href="https://github.com/ChokshiSarthak/Trie/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
-    <p class="name"></p>
-  </div>
-
-  
-</body>
+    
+  </body>
 </html>
