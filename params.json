@@ -1,0 +1,6 @@
+{
+  "name": "Autocomplete using Tries",
+  "tagline": "C++ Implementation of Trie data structure",
+  "body": "You might have come across with many websites/Apps with Auto complete suggestion. Most obvious example would be Google!\r\nAdding such an option to your site or application might seem daunting but there is a very simple recursive data structure that solves the problem. There is a ton of literature on the net on how to do this using black box approaches like Lucene, Solr, Sphinx, Redis etc. But all these packages require a lot of configuration and you also lose flexibility. Tries can be implemented in a few lines of code in any language of your choice. If you are not familiar with Trie. Here is a link to wiki - https://en.wikipedia.org/wiki/Trie\r\n\r\nThis is my attempt to implement Auto-Completion/Suggestion using Trie. Program reads words from the provided text for simplicity. This implementation can be used as a base to implement more sophisticated features.",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
